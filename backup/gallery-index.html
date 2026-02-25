@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mesquite Manufacturing — Website Concepts</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif; background: #0a0a0a; color: #fff; min-height: 100vh; }
+    .container { max-width: 1100px; margin: 0 auto; padding: 60px 24px; }
+    h1 { font-size: 2.5rem; text-align: center; margin-bottom: 12px; }
+    .subtitle { text-align: center; color: #94a3b8; font-size: 1.1rem; margin-bottom: 56px; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); gap: 28px; }
+    .card {
+      background: #111; border: 1px solid #222; border-radius: 16px;
+      overflow: hidden; transition: all .3s; cursor: pointer;
+      text-decoration: none; color: #fff;
+    }
+    .card:hover { transform: translateY(-8px); border-color: #3b82f6; box-shadow: 0 20px 60px rgba(59,130,246,.15); }
+    .card-preview {
+      height: 200px; background-size: cover; background-position: top center;
+      border-bottom: 1px solid #222; position: relative; overflow: hidden;
+    }
+    .card-preview iframe {
+      width: 200%; height: 200%; transform: scale(0.5); transform-origin: top left;
+      border: none; pointer-events: none;
+    }
+    .card-body { padding: 24px; }
+    .card-num { font-size: .75rem; text-transform: uppercase; letter-spacing: 2px; color: #3b82f6; margin-bottom: 8px; }
+    .card-title { font-size: 1.3rem; margin-bottom: 8px; font-weight: 700; }
+    .card-desc { color: #94a3b8; font-size: .9rem; line-height: 1.6; }
+    .card-palette { display: flex; gap: 6px; margin-top: 16px; }
+    .swatch { width: 24px; height: 24px; border-radius: 50%; border: 2px solid #333; }
+    .badge { display: inline-block; padding: 4px 12px; background: rgba(59,130,246,.1); color: #3b82f6; border-radius: 100px; font-size: .75rem; font-weight: 600; margin-top: 12px; }
+    footer { text-align: center; padding: 40px; color: #475569; font-size: .85rem; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🏭 Mesquite Manufacturing</h1>
+    <p class="subtitle">5 Professional Website Concepts — Click to preview</p>
+    <div class="grid">
+
+      <a href="site-1/" class="card">
+        <div class="card-preview"><iframe src="site-1/" loading="lazy"></iframe></div>
+        <div class="card-body">
+          <div class="card-num">Concept 01</div>
+          <div class="card-title">Industrial Dark</div>
+          <div class="card-desc">Dramatic dark theme with electric blue accents. Parallax scrolling, animated stats, pulsing CTAs. Built to intimidate the competition.</div>
+          <div class="card-palette">
+            <div class="swatch" style="background:#0a0a0a"></div>
+            <div class="swatch" style="background:#2a2a2a"></div>
+            <div class="swatch" style="background:#00b4d8"></div>
+            <div class="swatch" style="background:#fff"></div>
+          </div>
+          <span class="badge">Dark · Dramatic · Modern</span>
+        </div>
+      </a>
+
+      <a href="site-2/" class="card">
+        <div class="card-preview"><iframe src="site-2/" loading="lazy"></iframe></div>
+        <div class="card-body">
+          <div class="card-num">Concept 02</div>
+          <div class="card-title">Clean Precision</div>
+          <div class="card-desc">Minimalist white with navy and sky blue. Xometry-inspired corporate design with trust metrics, capability tables, and instant quote form.</div>
+          <div class="card-palette">
+            <div class="swatch" style="background:#ffffff; border-color:#ddd"></div>
+            <div class="swatch" style="background:#1a365d"></div>
+            <div class="swatch" style="background:#3182ce"></div>
+            <div class="swatch" style="background:#f8f9fa; border-color:#ddd"></div>
+          </div>
+          <span class="badge">Clean · Corporate · Trustworthy</span>
+        </div>
+      </a>
+
+      <a href="site-3/" class="card">
+        <div class="card-preview"><iframe src="site-3/" loading="lazy"></iframe></div>
+        <div class="card-body">
+          <div class="card-num">Concept 03</div>
+          <div class="card-title">Bold Manufacturing</div>
+          <div class="card-desc">High-energy black and orange with massive typography. Scroll-trace line, bold stats, aggressive transitions. Says "we mean business."</div>
+          <div class="card-palette">
+            <div class="swatch" style="background:#000000"></div>
+            <div class="swatch" style="background:#ff6b00"></div>
+            <div class="swatch" style="background:#1a1a1a"></div>
+            <div class="swatch" style="background:#ffffff; border-color:#ddd"></div>
+          </div>
+          <span class="badge">Bold · Energetic · Aggressive</span>
+        </div>
+      </a>
+
+      <a href="site-4/" class="card">
+        <div class="card-preview"><iframe src="site-4/" loading="lazy"></iframe></div>
+        <div class="card-body">
+          <div class="card-num">Concept 04</div>
+          <div class="card-title">Premium Craft</div>
+          <div class="card-desc">Warm gold and brown tones with elegant serif typography. Story-driven, gallery-focused, feels like a premium brand, not a factory.</div>
+          <div class="card-palette">
+            <div class="swatch" style="background:#faf8f5; border-color:#ddd"></div>
+            <div class="swatch" style="background:#2d1b0e"></div>
+            <div class="swatch" style="background:#c8a45c"></div>
+            <div class="swatch" style="background:#f5f0e8; border-color:#ddd"></div>
+          </div>
+          <span class="badge">Warm · Premium · Storytelling</span>
+        </div>
+      </a>
+
+      <a href="site-5/" class="card">
+        <div class="card-preview"><iframe src="site-5/" loading="lazy"></iframe></div>
+        <div class="card-body">
+          <div class="card-num">Concept 05</div>
+          <div class="card-title">Technical Authority</div>
+          <div class="card-desc">Navy and teal with IBM Plex. Data-rich with material tables, tolerance charts, FAQ accordion, and CAD file upload. Engineering-first.</div>
+          <div class="card-palette">
+            <div class="swatch" style="background:#0f172a"></div>
+            <div class="swatch" style="background:#0d9488"></div>
+            <div class="swatch" style="background:#475569"></div>
+            <div class="swatch" style="background:#f1f5f9; border-color:#ddd"></div>
+          </div>
+          <span class="badge">Technical · Data-Rich · Authoritative</span>
+        </div>
+      </a>
+
+    </div>
+  </div>
+  <footer>Mesquite Manufacturing Website Concepts — Built with ❤️ for the $500K journey</footer>
+</body>
+</html>
