@@ -483,6 +483,10 @@ h1,h2,h3,h4,h5,h6 { font-family: 'IBM Plex Sans', sans-serif; color: var(--navy)
   .case-specs-grid--wide { grid-template-columns: repeat(2, 1fr); }
   .contact-layout { grid-template-columns: 1fr; }
 }
+/* Photo showcase responsive */
+@media (max-width: 768px) {
+  section > [style*="grid-template-columns:repeat(4"] { grid-template-columns: 1fr 1fr !important; }
+}
 @media (max-width: 768px) {
   .nav-links {
     position: fixed; top: 68px; left: 0; right: 0;
