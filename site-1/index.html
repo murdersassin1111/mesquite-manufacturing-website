@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Mesquite Manufacturing — Precision CNC Machining, Prototype Development, Custom Assembly, and 3D Printing in Texas. Tolerances to ±0.001&quot;. 24/7 Operations." />
+  <title>Mesquite Manufacturing | Precision CNC Machining</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════ NAV ═══════════════════════════════ -->
+  <nav class="nav" id="navbar">
+    <div class="nav__inner container">
+      <a href="#" class="nav__logo">
+        <span class="nav__logo-icon">⬡</span>
+        MESQUITE<span class="nav__logo-accent">MFG</span>
+      </a>
+
+      <button class="nav__hamburger" id="hamburger" aria-label="Toggle menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <ul class="nav__links" id="navLinks">
+        <li><a href="#services" class="nav__link">Services</a></li>
+        <li><a href="#stats"    class="nav__link">Capabilities</a></li>
+        <li><a href="#about"    class="nav__link">About</a></li>
+        <li><a href="#why"      class="nav__link">Why Us</a></li>
+        <li><a href="#contact"  class="nav__link">Contact</a></li>
+        <li><a href="#contact"  class="nav__link nav__link--cta">Request Quote</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ═══════════════════════════════ HERO ═══════════════════════════════ -->
+  <section class="hero" id="home">
+    <div class="hero__bg">
+      <img
+        src="https://images.unsplash.com/photo-1565193566173-7a0ee3dbe261?w=1920&auto=format&fit=crop&q=80"
+        alt="CNC Machine"
+        class="hero__bg-img"
+        loading="eager"
+      />
+      <div class="hero__overlay"></div>
+      <!-- Animated grid lines -->
+      <div class="hero__grid"></div>
+    </div>
+
+    <div class="hero__content container">
+      <div class="hero__badge reveal">
+        <span class="hero__badge-dot"></span>
+        Texas-Based · 24/7 Operations · ISO-Aligned Precision
+      </div>
+
+      <h1 class="hero__headline reveal reveal--delay-1">
+        PRECISION<br />ENGINEERED.<br />
+        <span class="hero__headline-accent">PERFECTLY</span><br />
+        DELIVERED.
+      </h1>
+
+      <p class="hero__sub reveal reveal--delay-2">
+        4th-axis CNC machining, rapid prototyping, and custom assembly — built to
+        tolerances as tight as <strong>±0.001"</strong>. From first sketch to final
+        shipment, we handle every step.
+      </p>
+
+      <div class="hero__actions reveal reveal--delay-3">
+        <a href="#contact" class="btn btn--primary btn--pulse">Request a Quote</a>
+        <a href="#services" class="btn btn--ghost">Explore Services</a>
+      </div>
+
+      <div class="hero__scroll reveal reveal--delay-4">
+        <span>Scroll to explore</span>
+        <div class="hero__scroll-line"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ TICKER ═══════════════════════════════ -->
+  <div class="ticker">
+    <div class="ticker__track">
+      <span>Precision CNC Machining</span>
+      <span class="ticker__dot">◆</span>
+      <span>4th Axis Capability</span>
+      <span class="ticker__dot">◆</span>
+      <span>±0.001" Tolerances</span>
+      <span class="ticker__dot">◆</span>
+      <span>Rapid Prototyping</span>
+      <span class="ticker__dot">◆</span>
+      <span>Custom Assembly</span>
+      <span class="ticker__dot">◆</span>
+      <span>3D Printing</span>
+      <span class="ticker__dot">◆</span>
+      <span>Aerospace · Defense · Medical · Automotive</span>
+      <span class="ticker__dot">◆</span>
+      <span>24/7 Operations</span>
+      <span class="ticker__dot">◆</span>
+      <!-- Duplicate for seamless loop -->
+      <span>Precision CNC Machining</span>
+      <span class="ticker__dot">◆</span>
+      <span>4th Axis Capability</span>
+      <span class="ticker__dot">◆</span>
+      <span>±0.001" Tolerances</span>
+      <span class="ticker__dot">◆</span>
+      <span>Rapid Prototyping</span>
+      <span class="ticker__dot">◆</span>
+      <span>Custom Assembly</span>
+      <span class="ticker__dot">◆</span>
+      <span>3D Printing</span>
+      <span class="ticker__dot">◆</span>
+      <span>Aerospace · Defense · Medical · Automotive</span>
+      <span class="ticker__dot">◆</span>
+      <span>24/7 Operations</span>
+      <span class="ticker__dot">◆</span>
+    </div>
+  </div>
+
+  <!-- ═══════════════════════════════ STATS ═══════════════════════════════ -->
+  <section class="stats" id="stats">
+    <div class="container">
+      <div class="section-label reveal">Our Numbers</div>
+      <h2 class="section-title reveal">Built on Precision.<br />Proven by Performance.</h2>
+
+      <div class="stats__grid">
+        <div class="stats__card reveal">
+          <div class="stats__icon">⚙</div>
+          <div class="stats__value" data-target="10000" data-suffix="+">0</div>
+          <div class="stats__label">Parts Delivered</div>
+          <div class="stats__desc">Precision components shipped to customers across industries</div>
+        </div>
+        <div class="stats__card reveal reveal--delay-1">
+          <div class="stats__icon">◎</div>
+          <div class="stats__value stats__value--text">±0.001"</div>
+          <div class="stats__label">Tightest Tolerance</div>
+          <div class="stats__desc">Industry-leading accuracy on every job we take on</div>
+        </div>
+        <div class="stats__card reveal reveal--delay-2">
+          <div class="stats__icon">◈</div>
+          <div class="stats__value" data-target="50" data-suffix="+">0</div>
+          <div class="stats__label">Materials Available</div>
+          <div class="stats__desc">Metals, plastics, composites — we machine it all</div>
+        </div>
+        <div class="stats__card reveal reveal--delay-3">
+          <div class="stats__icon">◉</div>
+          <div class="stats__value stats__value--text">24/7</div>
+          <div class="stats__label">Production Uptime</div>
+          <div class="stats__desc">Around-the-clock operations so your deadlines never slip</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ SERVICES ═══════════════════════════════ -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="section-label reveal">What We Do</div>
+      <h2 class="section-title reveal">Full-Spectrum<br />Manufacturing Services</h2>
+      <p class="section-sub reveal">
+        From first concept to final assembly, Mesquite Manufacturing is your single-source
+        partner for precision components — built right, built fast, built to last.
+      </p>
+
+      <div class="services__grid">
+
+        <!-- Card 1 -->
+        <article class="service-card reveal">
+          <div class="service-card__image">
+            <img
+              src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?w=800&auto=format&fit=crop&q=80"
+              alt="Precision CNC Machining"
+              loading="lazy"
+            />
+            <div class="service-card__image-overlay"></div>
+            <div class="service-card__number">01</div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">⚙</div>
+            <h3 class="service-card__title">Precision CNC Machining</h3>
+            <p class="service-card__desc">
+              Our 4th-axis CNC equipment delivers complex geometries that 3-axis machines
+              simply cannot achieve — at high volumes and lower cost per part. We machine
+              metals, plastics, and composites to tolerances as tight as <strong>±0.001"</strong>.
+            </p>
+            <ul class="service-card__list">
+              <li>4th-axis CNC capability</li>
+              <li>Tolerances: ±0.001"–0.005"</li>
+              <li>Metals, plastics, composites</li>
+              <li>High-volume production runs</li>
+            </ul>
+            <a href="#contact" class="service-card__cta">Get a Quote →</a>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="service-card reveal reveal--delay-1">
+          <div class="service-card__image">
+            <img
+              src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=800&auto=format&fit=crop&q=80"
+              alt="Prototype Development"
+              loading="lazy"
+            />
+            <div class="service-card__image-overlay"></div>
+            <div class="service-card__number">02</div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">◎</div>
+            <h3 class="service-card__title">Prototype Development</h3>
+            <p class="service-card__desc">
+              Speed matters when you're iterating. Our rapid prototyping process turns
+              your CAD files into real, testable parts in days — not weeks. We work
+              alongside your engineering team with iterative feedback loops built in.
+            </p>
+            <ul class="service-card__list">
+              <li>Fast-turn prototype production</li>
+              <li>Design-for-manufacture feedback</li>
+              <li>Iterative revision support</li>
+              <li>Cost-effective low-volume runs</li>
+            </ul>
+            <a href="#contact" class="service-card__cta">Get a Quote →</a>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="service-card reveal reveal--delay-2">
+          <div class="service-card__image">
+            <img
+              src="https://images.unsplash.com/photo-1581092334651-ddf26d9f09d0?w=800&auto=format&fit=crop&q=80"
+              alt="Custom Assembly"
+              loading="lazy"
+            />
+            <div class="service-card__image-overlay"></div>
+            <div class="service-card__number">03</div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">◈</div>
+            <h3 class="service-card__title">Custom Assembly</h3>
+            <p class="service-card__desc">
+              We don't just machine parts — we put them together. Our custom assembly
+              services integrate sub-components into finished systems, with full
+              functional testing so you receive a product that works right out of the box.
+            </p>
+            <ul class="service-card__list">
+              <li>Sub-assembly & full assembly</li>
+              <li>Functional testing & QC</li>
+              <li>Tailored integration solutions</li>
+              <li>Turnkey delivery</li>
+            </ul>
+            <a href="#contact" class="service-card__cta">Get a Quote →</a>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="service-card reveal reveal--delay-3">
+          <div class="service-card__image">
+            <img
+              src="https://images.unsplash.com/photo-1631451095765-2c91616fc9e6?w=800&auto=format&fit=crop&q=80"
+              alt="3D Printing"
+              loading="lazy"
+            />
+            <div class="service-card__image-overlay"></div>
+            <div class="service-card__number">04</div>
+          </div>
+          <div class="service-card__body">
+            <div class="service-card__icon">◉</div>
+            <h3 class="service-card__title">3D Printing</h3>
+            <p class="service-card__desc">
+              Additive manufacturing opens design possibilities that subtractive machining
+              cannot. We leverage fine-tolerance 3D printing across a diverse material
+              library for functional prototypes, jigs, and end-use parts.
+            </p>
+            <ul class="service-card__list">
+              <li>Fine-tolerance additive manufacturing</li>
+              <li>Diverse material library</li>
+              <li>Complex internal geometries</li>
+              <li>Functional & aesthetic parts</li>
+            </ul>
+            <a href="#contact" class="service-card__cta">Get a Quote →</a>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ ABOUT ═══════════════════════════════ -->
+  <section class="about" id="about">
+    <div class="about__bg-text" aria-hidden="true">MESQUITE</div>
+    <div class="container">
+      <div class="about__grid">
+
+        <div class="about__media reveal">
+          <div class="about__img-frame">
+            <img
+              src="https://images.unsplash.com/photo-1581092334651-ddf26d9f09d0?w=800&auto=format&fit=crop&q=80"
+              alt="Mesquite Manufacturing team at work"
+              loading="lazy"
+              class="about__img"
+            />
+            <div class="about__img-accent"></div>
+          </div>
+          <div class="about__badge-float">
+            <div class="about__badge-float-icon">⚡</div>
+            <div>
+              <strong>Texas-Based</strong>
+              <span>Serving Nationwide</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="about__content reveal reveal--delay-1">
+          <div class="section-label">Our Story</div>
+          <h2 class="section-title">Engineered in Texas.<br />Trusted Everywhere.</h2>
+          <p class="about__text">
+            Mesquite Manufacturing was founded with a singular focus: deliver precision-machined
+            components that engineers can trust, at a price that makes sense. Based in Texas,
+            we serve customers across aerospace, defense, automotive, and medical sectors —
+            industries where a fraction of an inch is the difference between success and failure.
+          </p>
+          <p class="about__text">
+            Our 4th-axis CNC capability sets us apart from the competition. Where others require
+            multiple setups and increased labor cost, we deliver complex geometry in a single
+            fixture — faster, more accurately, and at lower per-part cost. Paired with our
+            24/7 operation schedule, we meet the tightest deadlines without compromising quality.
+          </p>
+          <p class="about__text">
+            We believe manufacturing should be a partnership. From your first inquiry to final
+            delivery, our team works alongside you — offering design-for-manufacture feedback,
+            material selection guidance, and real-time production updates.
+          </p>
+
+          <div class="about__highlights">
+            <div class="about__highlight">
+              <div class="about__highlight-icon">✓</div>
+              <div>Customer-centric, tailored approach to every project</div>
+            </div>
+            <div class="about__highlight">
+              <div class="about__highlight-icon">✓</div>
+              <div>Full-service: design → prototype → production → assembly</div>
+            </div>
+            <div class="about__highlight">
+              <div class="about__highlight-icon">✓</div>
+              <div>24/7 operations — your deadlines drive our schedule</div>
+            </div>
+          </div>
+
+          <a href="#contact" class="btn btn--primary">Work With Us</a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ INDUSTRIES ═══════════════════════════════ -->
+  <section class="industries">
+    <div class="container">
+      <div class="section-label reveal">Industries Served</div>
+      <div class="industries__grid">
+        <div class="industry-pill reveal">🚀 Aerospace</div>
+        <div class="industry-pill reveal reveal--delay-1">🛡 Defense</div>
+        <div class="industry-pill reveal reveal--delay-2">🚗 Automotive</div>
+        <div class="industry-pill reveal reveal--delay-3">🏥 Medical</div>
+        <div class="industry-pill reveal">⚡ Energy</div>
+        <div class="industry-pill reveal reveal--delay-1">🤖 Robotics</div>
+        <div class="industry-pill reveal reveal--delay-2">🔬 R&amp;D</div>
+        <div class="industry-pill reveal reveal--delay-3">🏗 Industrial</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ WHY US ═══════════════════════════════ -->
+  <section class="why" id="why">
+    <div class="container">
+      <div class="section-label reveal">Why Mesquite</div>
+      <h2 class="section-title reveal">The Mesquite<br />Difference</h2>
+      <p class="section-sub reveal">
+        We're not just a job shop. We're an engineering partner with the machines,
+        talent, and drive to deliver precision at scale — every time.
+      </p>
+
+      <div class="why__grid">
+
+        <div class="why-card reveal">
+          <div class="why-card__icon-wrap">
+            <div class="why-card__icon">⚙</div>
+          </div>
+          <h3 class="why-card__title">4th Axis CNC</h3>
+          <p class="why-card__desc">
+            Our 4th-axis capability machines complex, multi-surface parts in a single
+            setup — delivering higher precision and lower cost than competitors locked
+            into conventional 3-axis workflows.
+          </p>
+        </div>
+
+        <div class="why-card reveal reveal--delay-1">
+          <div class="why-card__icon-wrap">
+            <div class="why-card__icon">◎</div>
+          </div>
+          <h3 class="why-card__title">±0.001" Precision</h3>
+          <p class="why-card__desc">
+            Every part is measured, documented, and verified before it ships. We hold
+            tolerances the competition won't quote — and we prove it with full
+            inspection reports on request.
+          </p>
+        </div>
+
+        <div class="why-card reveal reveal--delay-2">
+          <div class="why-card__icon-wrap">
+            <div class="why-card__icon">↺</div>
+          </div>
+          <h3 class="why-card__title">End-to-End Service</h3>
+          <p class="why-card__desc">
+            Design consultation, rapid prototyping, production machining, and final
+            assembly — all under one roof. One partner for the full lifecycle means
+            fewer handoffs and faster time-to-market.
+          </p>
+        </div>
+
+        <div class="why-card reveal reveal--delay-3">
+          <div class="why-card__icon-wrap">
+            <div class="why-card__icon">◈</div>
+          </div>
+          <h3 class="why-card__title">50+ Materials</h3>
+          <p class="why-card__desc">
+            From 6061 aluminum to titanium, Delrin to PEEK, carbon fiber to exotic
+            alloys — our extensive material library means your design is never
+            constrained by what we can machine.
+          </p>
+        </div>
+
+        <div class="why-card reveal">
+          <div class="why-card__icon-wrap">
+            <div class="why-card__icon">⏱</div>
+          </div>
+          <h3 class="why-card__title">24/7 Operations</h3>
+          <p class="why-card__desc">
+            We run three shifts so your parts don't wait. Whether it's a rush prototype
+            or a full production run, our floor stays active around the clock to meet
+            your schedule.
+          </p>
+        </div>
+
+        <div class="why-card reveal reveal--delay-1">
+          <div class="why-card__icon-wrap">
+            <div class="why-card__icon">◉</div>
+          </div>
+          <h3 class="why-card__title">Customer Partnership</h3>
+          <p class="why-card__desc">
+            We're not a black-box vendor. We communicate throughout production, flag
+            potential issues early, and provide DFM feedback that saves you money
+            before a single chip hits the floor.
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ PROCESS ═══════════════════════════════ -->
+  <section class="process">
+    <div class="container">
+      <div class="section-label reveal">How It Works</div>
+      <h2 class="section-title reveal">From Concept to<br />Delivered Part</h2>
+
+      <div class="process__steps">
+        <div class="process__step reveal">
+          <div class="process__step-num">01</div>
+          <div class="process__step-line"></div>
+          <div class="process__step-body">
+            <h3>Submit Your RFQ</h3>
+            <p>Upload your CAD files and specs. We review and respond within one business day with a detailed quote.</p>
+          </div>
+        </div>
+        <div class="process__step reveal reveal--delay-1">
+          <div class="process__step-num">02</div>
+          <div class="process__step-line"></div>
+          <div class="process__step-body">
+            <h3>Design Review</h3>
+            <p>Our engineers analyze your design for manufacturability and provide feedback to optimize cost and lead time.</p>
+          </div>
+        </div>
+        <div class="process__step reveal reveal--delay-2">
+          <div class="process__step-num">03</div>
+          <div class="process__step-line"></div>
+          <div class="process__step-body">
+            <h3>Production</h3>
+            <p>Your parts enter our 24/7 production floor. Real-time updates keep you informed every step of the way.</p>
+          </div>
+        </div>
+        <div class="process__step reveal reveal--delay-3">
+          <div class="process__step-num">04</div>
+          <div class="process__step-line"></div>
+          <div class="process__step-body">
+            <h3>QC &amp; Delivery</h3>
+            <p>Every part is inspected, measured, and verified before shipping. Full documentation available on request.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ CONTACT ═══════════════════════════════ -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact__grid">
+
+        <div class="contact__info reveal">
+          <div class="section-label">Get In Touch</div>
+          <h2 class="section-title">Ready to Build<br />Something Precise?</h2>
+          <p class="contact__sub">
+            Fill out the form and our team will respond within one business day with
+            a detailed quote and timeline. No commitment required.
+          </p>
+
+          <div class="contact__details">
+            <div class="contact__detail">
+              <div class="contact__detail-icon">📍</div>
+              <div>
+                <strong>Location</strong>
+                <span>Texas, USA</span>
+              </div>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon">🌐</div>
+              <div>
+                <strong>Website</strong>
+                <span>mesquitemanufacturing.com</span>
+              </div>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon">⏱</div>
+              <div>
+                <strong>Operations</strong>
+                <span>24/7 — 365 days a year</span>
+              </div>
+            </div>
+            <div class="contact__detail">
+              <div class="contact__detail-icon">⚡</div>
+              <div>
+                <strong>Quote Response</strong>
+                <span>Within 1 business day</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact__trust">
+            <div class="contact__trust-item">✓ No minimum order quantities</div>
+            <div class="contact__trust-item">✓ NDA available on request</div>
+            <div class="contact__trust-item">✓ ITAR-compliant capabilities</div>
+          </div>
+        </div>
+
+        <div class="contact__form-wrap reveal reveal--delay-1">
+          <form class="contact__form" id="quoteForm" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="firstName">First Name *</label>
+                <input type="text" id="firstName" name="firstName" placeholder="John" required />
+              </div>
+              <div class="form-group">
+                <label for="lastName">Last Name *</label>
+                <input type="text" id="lastName" name="lastName" placeholder="Smith" required />
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" placeholder="john@company.com" required />
+              </div>
+              <div class="form-group">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" placeholder="(555) 000-0000" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company Name</label>
+              <input type="text" id="company" name="company" placeholder="Acme Aerospace Inc." />
+            </div>
+
+            <div class="form-row">
+              <div class="form-group">
+                <label for="service">Service Needed *</label>
+                <select id="service" name="service" required>
+                  <option value="" disabled selected>Select a service…</option>
+                  <option value="cnc">Precision CNC Machining</option>
+                  <option value="proto">Prototype Development</option>
+                  <option value="assembly">Custom Assembly</option>
+                  <option value="print">3D Printing</option>
+                  <option value="multi">Multiple Services</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label for="quantity">Estimated Quantity</label>
+                <input type="text" id="quantity" name="quantity" placeholder="e.g. 50 units" />
+              </div>
+            </div>
+
+            <div class="form-group">
+              <label for="material">Material(s)</label>
+              <input type="text" id="material" name="material" placeholder="e.g. 6061 Aluminum, 304 Stainless" />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Project Details *</label>
+              <textarea id="message" name="message" rows="5" placeholder="Describe your project, tolerances required, timeline, and any special requirements…" required></textarea>
+            </div>
+
+            <div class="form-group">
+              <label class="form-checkbox">
+                <input type="checkbox" name="nda" />
+                <span>I'm interested in signing an NDA before sharing file details</span>
+              </label>
+            </div>
+
+            <button type="submit" class="btn btn--primary btn--full btn--pulse" id="submitBtn">
+              <span>Send Request for Quote</span>
+              <span class="btn__icon">→</span>
+            </button>
+
+            <p class="form-note">We respond within 1 business day. Your information is never shared.</p>
+          </form>
+
+          <div class="form-success" id="formSuccess" hidden>
+            <div class="form-success__icon">✓</div>
+            <h3>Quote Request Received!</h3>
+            <p>Thank you. Our engineering team will review your project and respond within one business day.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ═══════════════════════════════ FOOTER ═══════════════════════════════ -->
+  <footer class="footer">
+    <div class="footer__top">
+      <div class="container footer__top-inner">
+        <div class="footer__brand">
+          <div class="footer__logo">
+            <span class="nav__logo-icon">⬡</span>
+            MESQUITE<span class="nav__logo-accent">MFG</span>
+          </div>
+          <p class="footer__tagline">
+            Precision CNC machining, rapid prototyping, and custom assembly —
+            engineered in Texas and delivered on time, every time.
+          </p>
+          <div class="footer__socials">
+            <a href="#" class="footer__social" aria-label="LinkedIn">in</a>
+            <a href="#" class="footer__social" aria-label="Twitter/X">𝕏</a>
+            <a href="#" class="footer__social" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__col-title">Services</h4>
+          <ul class="footer__links">
+            <li><a href="#services">Precision CNC Machining</a></li>
+            <li><a href="#services">Prototype Development</a></li>
+            <li><a href="#services">Custom Assembly</a></li>
+            <li><a href="#services">3D Printing</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__col-title">Industries</h4>
+          <ul class="footer__links">
+            <li><a href="#">Aerospace &amp; Defense</a></li>
+            <li><a href="#">Automotive</a></li>
+            <li><a href="#">Medical Devices</a></li>
+            <li><a href="#">Energy &amp; Industrial</a></li>
+            <li><a href="#">Robotics &amp; R&amp;D</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__col">
+          <h4 class="footer__col-title">Company</h4>
+          <ul class="footer__links">
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#why">Why Mesquite</a></li>
+            <li><a href="#contact">Request a Quote</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+            <li><a href="#">Terms of Service</a></li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container footer__bottom-inner">
+        <p>© 2026 Mesquite Manufacturing, LLC. All rights reserved. Texas, USA.</p>
+        <p class="footer__note">Precision CNC Machining · Prototype Development · Custom Assembly · 3D Printing</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating CTA -->
+  <a href="#contact" class="fab" id="fab" aria-label="Request Quote">
+    <span class="fab__icon">+</span>
+    <span class="fab__text">Get Quote</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
